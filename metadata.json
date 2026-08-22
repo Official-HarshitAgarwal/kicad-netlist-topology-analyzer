@@ -1,0 +1,26 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Netlist Connectivity & Topology Analyzer",
+  "description": "Graph-theoretic analysis of a board's netlist: electrical islands, single points of failure, high-fanout signals, missing decoupling and topology metrics.",
+  "description_full": "Models the netlist as a graph and applies graph algorithms to answer global questions that DRC and ERC do not ask. Reports disconnected electrical islands, floating and single-pad nets, unrouted nets, high-fanout signal nets, ICs without local decoupling on their own rail-and-ground pair, articulation points and bridges in the signal topology, and betweenness-centrality hub ranking. Results appear in a tabbed dialog with cross-probing to the PCB editor, and export to self-contained HTML, JSON and SVG. A head-less command-line runner allows the same analysis in CI. Power and ground nets are deliberately excluded from the topology projection: rails touch nearly every part, so including them makes the component graph almost complete and destroys all structural information.",
+  "identifier": "com.github.netlist-topology-analyzer",
+  "type": "plugin",
+  "author": {
+    "name": "FOSSEE eSim Semester-Long Internship, Autumn 2026 - Task 6",
+    "contact": {
+      "web": "https://github.com/OWNER/kicad-netlist-topology-analyzer"
+    }
+  },
+  "license": "MIT",
+  "resources": {
+    "homepage": "https://github.com/OWNER/kicad-netlist-topology-analyzer"
+  },
+  "tags": ["analysis", "netlist", "topology", "graph", "drc", "review"],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "status": "development",
+      "kicad_version": "9.0"
+    }
+  ]
+}

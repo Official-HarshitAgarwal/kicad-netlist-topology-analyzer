@@ -1,0 +1,4077 @@
+{
+  "components": [
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Connector:USB_C_Receptacle",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 3,
+          "net_name": "+5V",
+          "number": "1",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 29,
+          "net_name": "USB_DM",
+          "number": "2",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 30,
+          "net_name": "USB_DP",
+          "number": "3",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 21,
+          "net_name": "SHIELD",
+          "number": "4",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        }
+      ],
+      "reference": "J1",
+      "value": "USB_C",
+      "x": 10.0,
+      "y": 40.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_TO_SOT_SMD:SOT-223",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "1",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 3,
+          "net_name": "+5V",
+          "number": "3",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "4",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        }
+      ],
+      "reference": "U2",
+      "value": "AMS1117-3.3",
+      "x": 25.0,
+      "y": 40.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0805",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 3,
+          "net_name": "+5V",
+          "number": "1",
+          "reference": "C1",
+          "x": 25.0,
+          "y": 48.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C1",
+          "x": 25.0,
+          "y": 48.0
+        }
+      ],
+      "reference": "C1",
+      "value": "10uF",
+      "x": 25.0,
+      "y": 48.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C5",
+          "x": 52.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C5",
+          "x": 52.0,
+          "y": 44.0
+        }
+      ],
+      "reference": "C5",
+      "value": "100nF",
+      "x": 52.0,
+      "y": 44.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C6",
+          "x": 48.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C6",
+          "x": 48.0,
+          "y": 44.0
+        }
+      ],
+      "reference": "C6",
+      "value": "100nF",
+      "x": 48.0,
+      "y": 44.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "RF_Module:ESP32-WROOM-32",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "3",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "4",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "5",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "6",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 25,
+          "net_name": "SPI_SCK",
+          "number": "7",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 24,
+          "net_name": "SPI_MOSI",
+          "number": "8",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 23,
+          "net_name": "SPI_MISO",
+          "number": "9",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 22,
+          "net_name": "SPI_CS",
+          "number": "10",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 28,
+          "net_name": "UART_TX",
+          "number": "11",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 27,
+          "net_name": "UART_RX",
+          "number": "12",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 31,
+          "net_name": "XTAL1",
+          "number": "13",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 32,
+          "net_name": "XTAL2",
+          "number": "14",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 33,
+          "net_name": "nRESET",
+          "number": "15",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 14,
+          "net_name": "LED_A",
+          "number": "16",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 29,
+          "net_name": "USB_DM",
+          "number": "17",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 30,
+          "net_name": "USB_DP",
+          "number": "18",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 17,
+          "net_name": "OPTO_DRV",
+          "number": "19",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 6,
+          "net_name": "GPIO0",
+          "number": "20",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 7,
+          "net_name": "GPIO1",
+          "number": "21",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 8,
+          "net_name": "GPIO2",
+          "number": "22",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 9,
+          "net_name": "GPIO3",
+          "number": "23",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 10,
+          "net_name": "GPIO4",
+          "number": "24",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 11,
+          "net_name": "GPIO5",
+          "number": "25",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "26",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "27",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "28",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "29",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "30",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "31",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "32",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        }
+      ],
+      "reference": "U1",
+      "value": "ESP32-WROOM",
+      "x": 50.0,
+      "y": 40.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 31,
+          "net_name": "XTAL1",
+          "number": "1",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 32,
+          "net_name": "XTAL2",
+          "number": "3",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "4",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        }
+      ],
+      "reference": "Y1",
+      "value": "16MHz",
+      "x": 40.0,
+      "y": 30.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 31,
+          "net_name": "XTAL1",
+          "number": "1",
+          "reference": "C2",
+          "x": 38.0,
+          "y": 26.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C2",
+          "x": 38.0,
+          "y": 26.0
+        }
+      ],
+      "reference": "C2",
+      "value": "22pF",
+      "x": 38.0,
+      "y": 26.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 32,
+          "net_name": "XTAL2",
+          "number": "1",
+          "reference": "C3",
+          "x": 42.0,
+          "y": 26.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C3",
+          "x": 42.0,
+          "y": 26.0
+        }
+      ],
+      "reference": "C3",
+      "value": "22pF",
+      "x": 42.0,
+      "y": 26.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Resistor_SMD:R_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "1",
+          "reference": "R1",
+          "x": 60.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "R1",
+          "x": 60.0,
+          "y": 20.0
+        }
+      ],
+      "reference": "R1",
+      "value": "4k7",
+      "x": 60.0,
+      "y": 20.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Resistor_SMD:R_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "1",
+          "reference": "R2",
+          "x": 64.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "R2",
+          "x": 64.0,
+          "y": 20.0
+        }
+      ],
+      "reference": "R2",
+      "value": "4k7",
+      "x": 64.0,
+      "y": 20.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_LGA:LGA-8",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "8",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        }
+      ],
+      "reference": "U3",
+      "value": "BME280",
+      "x": 70.0,
+      "y": 30.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C4",
+          "x": 70.0,
+          "y": 34.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C4",
+          "x": 70.0,
+          "y": 34.0
+        }
+      ],
+      "reference": "C4",
+      "value": "100nF",
+      "x": 70.0,
+      "y": 34.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_LGA:LGA-8",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "8",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        }
+      ],
+      "reference": "U6",
+      "value": "MPU6050",
+      "x": 70.0,
+      "y": 68.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C8",
+          "x": 70.0,
+          "y": 72.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C8",
+          "x": 70.0,
+          "y": 72.0
+        }
+      ],
+      "reference": "C8",
+      "value": "100nF",
+      "x": 70.0,
+      "y": 72.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_LGA:LGA-8",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "8",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        }
+      ],
+      "reference": "U7",
+      "value": "TMP117",
+      "x": 95.0,
+      "y": 40.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C9",
+          "x": 95.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C9",
+          "x": 95.0,
+          "y": 44.0
+        }
+      ],
+      "reference": "C9",
+      "value": "100nF",
+      "x": 95.0,
+      "y": 44.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_LGA:LGA-8",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "8",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        }
+      ],
+      "reference": "U9",
+      "value": "DS3231",
+      "x": 95.0,
+      "y": 25.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C10",
+          "x": 95.0,
+          "y": 29.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C10",
+          "x": 95.0,
+          "y": 29.0
+        }
+      ],
+      "reference": "C10",
+      "value": "100nF",
+      "x": 95.0,
+      "y": 29.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_LGA:LGA-8",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "8",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        }
+      ],
+      "reference": "U8",
+      "value": "SHT31",
+      "x": 70.0,
+      "y": 95.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Capacitor_SMD:C_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C7",
+          "x": 85.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C7",
+          "x": 85.0,
+          "y": 95.0
+        }
+      ],
+      "reference": "C7",
+      "value": "100nF",
+      "x": 85.0,
+      "y": 95.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "1",
+          "reference": "TP2",
+          "x": 62.0,
+          "y": 16.0
+        }
+      ],
+      "reference": "TP2",
+      "value": "TestPoint",
+      "x": 62.0,
+      "y": 16.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Inductor_SMD:L_0603",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "FB1",
+          "x": 62.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 2,
+          "net_name": "+3V3_MEM",
+          "number": "2",
+          "reference": "FB1",
+          "x": 62.0,
+          "y": 55.0
+        }
+      ],
+      "reference": "FB1",
+      "value": "600R",
+      "x": 62.0,
+      "y": 55.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_SO:SOIC-8",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 22,
+          "net_name": "SPI_CS",
+          "number": "1",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 23,
+          "net_name": "SPI_MISO",
+          "number": "2",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "3",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "4",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 24,
+          "net_name": "SPI_MOSI",
+          "number": "5",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 25,
+          "net_name": "SPI_SCK",
+          "number": "6",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 2,
+          "net_name": "+3V3_MEM",
+          "number": "7",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 2,
+          "net_name": "+3V3_MEM",
+          "number": "8",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        }
+      ],
+      "reference": "U4",
+      "value": "AT25SF081",
+      "x": 70.0,
+      "y": 55.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Resistor_SMD:R_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 33,
+          "net_name": "nRESET",
+          "number": "1",
+          "reference": "R3",
+          "x": 44.0,
+          "y": 50.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "R3",
+          "x": 44.0,
+          "y": 50.0
+        }
+      ],
+      "reference": "R3",
+      "value": "10k",
+      "x": 44.0,
+      "y": 50.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Button_Switch_SMD:SW_SPST_SKQG",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 33,
+          "net_name": "nRESET",
+          "number": "1",
+          "reference": "SW1",
+          "x": 40.0,
+          "y": 54.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "SW1",
+          "x": 40.0,
+          "y": 54.0
+        }
+      ],
+      "reference": "SW1",
+      "value": "SW_Push",
+      "x": 40.0,
+      "y": 54.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Resistor_SMD:R_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 14,
+          "net_name": "LED_A",
+          "number": "1",
+          "reference": "R4",
+          "x": 56.0,
+          "y": 52.0
+        },
+        {
+          "net_code": 15,
+          "net_name": "LED_K",
+          "number": "2",
+          "reference": "R4",
+          "x": 56.0,
+          "y": 52.0
+        }
+      ],
+      "reference": "R4",
+      "value": "1k",
+      "x": 56.0,
+      "y": 52.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "LED_SMD:LED_0603",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 15,
+          "net_name": "LED_K",
+          "number": "1",
+          "reference": "D1",
+          "x": 60.0,
+          "y": 52.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "D1",
+          "x": 60.0,
+          "y": 52.0
+        }
+      ],
+      "reference": "D1",
+      "value": "LED_GREEN",
+      "x": 60.0,
+      "y": 52.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "LED_SMD:LED_0603",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "1",
+          "reference": "D2",
+          "x": 64.0,
+          "y": 52.0
+        },
+        {
+          "net_code": 0,
+          "net_name": "",
+          "number": "2",
+          "reference": "D2",
+          "x": 64.0,
+          "y": 52.0
+        }
+      ],
+      "reference": "D2",
+      "value": "LED_RED",
+      "x": 64.0,
+      "y": 52.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Resistor_SMD:R_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 17,
+          "net_name": "OPTO_DRV",
+          "number": "1",
+          "reference": "R5",
+          "x": 88.0,
+          "y": 70.0
+        },
+        {
+          "net_code": 16,
+          "net_name": "OPTO_A",
+          "number": "2",
+          "reference": "R5",
+          "x": 88.0,
+          "y": 70.0
+        }
+      ],
+      "reference": "R5",
+      "value": "330R",
+      "x": 88.0,
+      "y": 70.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Package_DIP:DIP-4_W7.62mm",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 16,
+          "net_name": "OPTO_A",
+          "number": "1",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        },
+        {
+          "net_code": 18,
+          "net_name": "OUT_ISO",
+          "number": "3",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        },
+        {
+          "net_code": 5,
+          "net_name": "GND_ISO",
+          "number": "4",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        }
+      ],
+      "reference": "U5",
+      "value": "PC817",
+      "x": 95.0,
+      "y": 70.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Connector_PinHeader:PinHeader_2x03",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        },
+        {
+          "net_code": 28,
+          "net_name": "UART_TX",
+          "number": "5",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        },
+        {
+          "net_code": 18,
+          "net_name": "OUT_ISO",
+          "number": "6",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        }
+      ],
+      "reference": "J2",
+      "value": "Conn_02x03",
+      "x": 105.0,
+      "y": 45.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Connector_PinHeader:PinHeader_1x08",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 6,
+          "net_name": "GPIO0",
+          "number": "1",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 7,
+          "net_name": "GPIO1",
+          "number": "2",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 8,
+          "net_name": "GPIO2",
+          "number": "3",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 9,
+          "net_name": "GPIO3",
+          "number": "4",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 10,
+          "net_name": "GPIO4",
+          "number": "5",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 11,
+          "net_name": "GPIO5",
+          "number": "6",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 27,
+          "net_name": "UART_RX",
+          "number": "7",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "8",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "reference": "J4",
+      "value": "Conn_01x08",
+      "x": 30.0,
+      "y": 20.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 26,
+          "net_name": "TP_SPARE",
+          "number": "1",
+          "reference": "TP1",
+          "x": 30.0,
+          "y": 60.0
+        }
+      ],
+      "reference": "TP1",
+      "value": "TestPoint",
+      "x": 30.0,
+      "y": 60.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Connector_PinHeader:PinHeader_1x02",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 12,
+          "net_name": "ISO_A",
+          "number": "1",
+          "reference": "J3",
+          "x": 15.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 13,
+          "net_name": "ISO_B",
+          "number": "2",
+          "reference": "J3",
+          "x": 15.0,
+          "y": 95.0
+        }
+      ],
+      "reference": "J3",
+      "value": "Conn_01x02",
+      "x": 15.0,
+      "y": 95.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "Resistor_SMD:R_0402",
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "net_code": 12,
+          "net_name": "ISO_A",
+          "number": "1",
+          "reference": "R6",
+          "x": 22.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 13,
+          "net_name": "ISO_B",
+          "number": "2",
+          "reference": "R6",
+          "x": 22.0,
+          "y": 95.0
+        }
+      ],
+      "reference": "R6",
+      "value": "100R",
+      "x": 22.0,
+      "y": 95.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "MountingHole:MountingHole_3.2mm",
+      "layer": "F.Cu",
+      "pads": [],
+      "reference": "H1",
+      "value": "MountingHole",
+      "x": 5.0,
+      "y": 5.0
+    },
+    {
+      "dnp": false,
+      "excluded_from_bom": false,
+      "footprint": "MountingHole:MountingHole_3.2mm",
+      "layer": "F.Cu",
+      "pads": [],
+      "reference": "H2",
+      "value": "MountingHole",
+      "x": 115.0,
+      "y": 105.0
+    }
+  ],
+  "meta": {
+    "note": "Synthetic board with intentionally seeded defects; see the module docstring for the expected findings.",
+    "source": "examples/make_demo_board.py"
+  },
+  "name": "demo_sensor_board",
+  "nets": [
+    {
+      "code": 1,
+      "name": "+3V3",
+      "pads": [
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "4",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C5",
+          "x": 52.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C6",
+          "x": 48.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "28",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "R1",
+          "x": 60.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "R2",
+          "x": 64.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C4",
+          "x": 70.0,
+          "y": 34.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C8",
+          "x": 70.0,
+          "y": 72.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C9",
+          "x": 95.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C10",
+          "x": 95.0,
+          "y": 29.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "6",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "C7",
+          "x": 85.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "FB1",
+          "x": 62.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "2",
+          "reference": "R3",
+          "x": 44.0,
+          "y": 50.0
+        },
+        {
+          "net_code": 1,
+          "net_name": "+3V3",
+          "number": "1",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 26,
+      "track_length_mm": 186.004,
+      "via_count": 0
+    },
+    {
+      "code": 2,
+      "name": "+3V3_MEM",
+      "pads": [
+        {
+          "net_code": 2,
+          "net_name": "+3V3_MEM",
+          "number": "2",
+          "reference": "FB1",
+          "x": 62.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 2,
+          "net_name": "+3V3_MEM",
+          "number": "7",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 2,
+          "net_name": "+3V3_MEM",
+          "number": "8",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 2,
+      "track_length_mm": 9.6,
+      "via_count": 0
+    },
+    {
+      "code": 3,
+      "name": "+5V",
+      "pads": [
+        {
+          "net_code": 3,
+          "net_name": "+5V",
+          "number": "1",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 3,
+          "net_name": "+5V",
+          "number": "3",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 3,
+          "net_name": "+5V",
+          "number": "1",
+          "reference": "C1",
+          "x": 25.0,
+          "y": 48.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 2,
+      "track_length_mm": 27.6,
+      "via_count": 0
+    },
+    {
+      "code": 4,
+      "name": "GND",
+      "pads": [
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "1",
+          "reference": "U2",
+          "x": 25.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C1",
+          "x": 25.0,
+          "y": 48.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C5",
+          "x": 52.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C6",
+          "x": 48.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "3",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "4",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "26",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "27",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "31",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "32",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "4",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C2",
+          "x": 38.0,
+          "y": 26.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C3",
+          "x": 42.0,
+          "y": 26.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C4",
+          "x": 70.0,
+          "y": 34.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C8",
+          "x": 70.0,
+          "y": 72.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C9",
+          "x": 95.0,
+          "y": 44.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C10",
+          "x": 95.0,
+          "y": 29.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "5",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "7",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "C7",
+          "x": 85.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "4",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "SW1",
+          "x": 40.0,
+          "y": 54.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "D1",
+          "x": 60.0,
+          "y": 52.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "2",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        },
+        {
+          "net_code": 4,
+          "net_name": "GND",
+          "number": "8",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 40,
+      "track_length_mm": 204.0,
+      "via_count": 0
+    },
+    {
+      "code": 5,
+      "name": "GND_ISO",
+      "pads": [
+        {
+          "net_code": 5,
+          "net_name": "GND_ISO",
+          "number": "4",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 0,
+      "track_length_mm": 0.0,
+      "via_count": 0
+    },
+    {
+      "code": 6,
+      "name": "GPIO0",
+      "pads": [
+        {
+          "net_code": 6,
+          "net_name": "GPIO0",
+          "number": "20",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 6,
+          "net_name": "GPIO0",
+          "number": "1",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 7,
+      "name": "GPIO1",
+      "pads": [
+        {
+          "net_code": 7,
+          "net_name": "GPIO1",
+          "number": "21",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 7,
+          "net_name": "GPIO1",
+          "number": "2",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 8,
+      "name": "GPIO2",
+      "pads": [
+        {
+          "net_code": 8,
+          "net_name": "GPIO2",
+          "number": "22",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 8,
+          "net_name": "GPIO2",
+          "number": "3",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 9,
+      "name": "GPIO3",
+      "pads": [
+        {
+          "net_code": 9,
+          "net_name": "GPIO3",
+          "number": "23",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 9,
+          "net_name": "GPIO3",
+          "number": "4",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 10,
+      "name": "GPIO4",
+      "pads": [
+        {
+          "net_code": 10,
+          "net_name": "GPIO4",
+          "number": "24",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 10,
+          "net_name": "GPIO4",
+          "number": "5",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 11,
+      "name": "GPIO5",
+      "pads": [
+        {
+          "net_code": 11,
+          "net_name": "GPIO5",
+          "number": "25",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 11,
+          "net_name": "GPIO5",
+          "number": "6",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 12,
+      "name": "ISO_A",
+      "pads": [
+        {
+          "net_code": 12,
+          "net_name": "ISO_A",
+          "number": "1",
+          "reference": "J3",
+          "x": 15.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 12,
+          "net_name": "ISO_A",
+          "number": "1",
+          "reference": "R6",
+          "x": 22.0,
+          "y": 95.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 8.4,
+      "via_count": 0
+    },
+    {
+      "code": 13,
+      "name": "ISO_B",
+      "pads": [
+        {
+          "net_code": 13,
+          "net_name": "ISO_B",
+          "number": "2",
+          "reference": "J3",
+          "x": 15.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 13,
+          "net_name": "ISO_B",
+          "number": "2",
+          "reference": "R6",
+          "x": 22.0,
+          "y": 95.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 8.4,
+      "via_count": 0
+    },
+    {
+      "code": 14,
+      "name": "LED_A",
+      "pads": [
+        {
+          "net_code": 14,
+          "net_name": "LED_A",
+          "number": "16",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 14,
+          "net_name": "LED_A",
+          "number": "1",
+          "reference": "R4",
+          "x": 56.0,
+          "y": 52.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 21.6,
+      "via_count": 0
+    },
+    {
+      "code": 15,
+      "name": "LED_K",
+      "pads": [
+        {
+          "net_code": 15,
+          "net_name": "LED_K",
+          "number": "2",
+          "reference": "R4",
+          "x": 56.0,
+          "y": 52.0
+        },
+        {
+          "net_code": 15,
+          "net_name": "LED_K",
+          "number": "1",
+          "reference": "D1",
+          "x": 60.0,
+          "y": 52.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 4.8,
+      "via_count": 0
+    },
+    {
+      "code": 16,
+      "name": "OPTO_A",
+      "pads": [
+        {
+          "net_code": 16,
+          "net_name": "OPTO_A",
+          "number": "2",
+          "reference": "R5",
+          "x": 88.0,
+          "y": 70.0
+        },
+        {
+          "net_code": 16,
+          "net_name": "OPTO_A",
+          "number": "1",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 8.4,
+      "via_count": 0
+    },
+    {
+      "code": 17,
+      "name": "OPTO_DRV",
+      "pads": [
+        {
+          "net_code": 17,
+          "net_name": "OPTO_DRV",
+          "number": "19",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 17,
+          "net_name": "OPTO_DRV",
+          "number": "1",
+          "reference": "R5",
+          "x": 88.0,
+          "y": 70.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 81.6,
+      "via_count": 0
+    },
+    {
+      "code": 18,
+      "name": "OUT_ISO",
+      "pads": [
+        {
+          "net_code": 18,
+          "net_name": "OUT_ISO",
+          "number": "3",
+          "reference": "U5",
+          "x": 95.0,
+          "y": 70.0
+        },
+        {
+          "net_code": 18,
+          "net_name": "OUT_ISO",
+          "number": "6",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 42.0,
+      "via_count": 0
+    },
+    {
+      "code": 19,
+      "name": "SCL",
+      "pads": [
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "6",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "1",
+          "reference": "R2",
+          "x": 64.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 19,
+          "net_name": "SCL",
+          "number": "4",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 7,
+      "track_length_mm": 156.002,
+      "via_count": 0
+    },
+    {
+      "code": 20,
+      "name": "SDA",
+      "pads": [
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "5",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "1",
+          "reference": "R1",
+          "x": 60.0,
+          "y": 20.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U3",
+          "x": 70.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U6",
+          "x": 70.0,
+          "y": 68.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U7",
+          "x": 95.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U9",
+          "x": 95.0,
+          "y": 25.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "U8",
+          "x": 70.0,
+          "y": 95.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "1",
+          "reference": "TP2",
+          "x": 62.0,
+          "y": 16.0
+        },
+        {
+          "net_code": 20,
+          "net_name": "SDA",
+          "number": "3",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 8,
+      "track_length_mm": 160.8,
+      "via_count": 0
+    },
+    {
+      "code": 21,
+      "name": "SHIELD",
+      "pads": [
+        {
+          "net_code": 21,
+          "net_name": "SHIELD",
+          "number": "4",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 0,
+      "track_length_mm": 0.0,
+      "via_count": 0
+    },
+    {
+      "code": 22,
+      "name": "SPI_CS",
+      "pads": [
+        {
+          "net_code": 22,
+          "net_name": "SPI_CS",
+          "number": "10",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 22,
+          "net_name": "SPI_CS",
+          "number": "1",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 42.0,
+      "via_count": 0
+    },
+    {
+      "code": 23,
+      "name": "SPI_MISO",
+      "pads": [
+        {
+          "net_code": 23,
+          "net_name": "SPI_MISO",
+          "number": "9",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 23,
+          "net_name": "SPI_MISO",
+          "number": "2",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 0,
+      "track_length_mm": 0.0,
+      "via_count": 0
+    },
+    {
+      "code": 24,
+      "name": "SPI_MOSI",
+      "pads": [
+        {
+          "net_code": 24,
+          "net_name": "SPI_MOSI",
+          "number": "8",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 24,
+          "net_name": "SPI_MOSI",
+          "number": "5",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 42.0,
+      "via_count": 0
+    },
+    {
+      "code": 25,
+      "name": "SPI_SCK",
+      "pads": [
+        {
+          "net_code": 25,
+          "net_name": "SPI_SCK",
+          "number": "7",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 25,
+          "net_name": "SPI_SCK",
+          "number": "6",
+          "reference": "U4",
+          "x": 70.0,
+          "y": 55.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 42.0,
+      "via_count": 0
+    },
+    {
+      "code": 26,
+      "name": "TP_SPARE",
+      "pads": [
+        {
+          "net_code": 26,
+          "net_name": "TP_SPARE",
+          "number": "1",
+          "reference": "TP1",
+          "x": 30.0,
+          "y": 60.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 0,
+      "track_length_mm": 0.0,
+      "via_count": 0
+    },
+    {
+      "code": 27,
+      "name": "UART_RX",
+      "pads": [
+        {
+          "net_code": 27,
+          "net_name": "UART_RX",
+          "number": "12",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 27,
+          "net_name": "UART_RX",
+          "number": "7",
+          "reference": "J4",
+          "x": 30.0,
+          "y": 20.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 0,
+      "track_length_mm": 0.0,
+      "via_count": 0
+    },
+    {
+      "code": 28,
+      "name": "UART_TX",
+      "pads": [
+        {
+          "net_code": 28,
+          "net_name": "UART_TX",
+          "number": "11",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 28,
+          "net_name": "UART_TX",
+          "number": "5",
+          "reference": "J2",
+          "x": 105.0,
+          "y": 45.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 72.0,
+      "via_count": 0
+    },
+    {
+      "code": 29,
+      "name": "USB_DM",
+      "pads": [
+        {
+          "net_code": 29,
+          "net_name": "USB_DM",
+          "number": "2",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 29,
+          "net_name": "USB_DM",
+          "number": "17",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 30,
+      "name": "USB_DP",
+      "pads": [
+        {
+          "net_code": 30,
+          "net_name": "USB_DP",
+          "number": "3",
+          "reference": "J1",
+          "x": 10.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 30,
+          "net_name": "USB_DP",
+          "number": "18",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 1,
+      "track_length_mm": 48.0,
+      "via_count": 0
+    },
+    {
+      "code": 31,
+      "name": "XTAL1",
+      "pads": [
+        {
+          "net_code": 31,
+          "net_name": "XTAL1",
+          "number": "13",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 31,
+          "net_name": "XTAL1",
+          "number": "1",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 31,
+          "net_name": "XTAL1",
+          "number": "1",
+          "reference": "C2",
+          "x": 38.0,
+          "y": 26.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 2,
+      "track_length_mm": 31.2,
+      "via_count": 0
+    },
+    {
+      "code": 32,
+      "name": "XTAL2",
+      "pads": [
+        {
+          "net_code": 32,
+          "net_name": "XTAL2",
+          "number": "14",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 32,
+          "net_name": "XTAL2",
+          "number": "3",
+          "reference": "Y1",
+          "x": 40.0,
+          "y": 30.0
+        },
+        {
+          "net_code": 32,
+          "net_name": "XTAL2",
+          "number": "1",
+          "reference": "C3",
+          "x": 42.0,
+          "y": 26.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 2,
+      "track_length_mm": 28.8,
+      "via_count": 0
+    },
+    {
+      "code": 33,
+      "name": "nRESET",
+      "pads": [
+        {
+          "net_code": 33,
+          "net_name": "nRESET",
+          "number": "15",
+          "reference": "U1",
+          "x": 50.0,
+          "y": 40.0
+        },
+        {
+          "net_code": 33,
+          "net_name": "nRESET",
+          "number": "1",
+          "reference": "R3",
+          "x": 44.0,
+          "y": 50.0
+        },
+        {
+          "net_code": 33,
+          "net_name": "nRESET",
+          "number": "1",
+          "reference": "SW1",
+          "x": 40.0,
+          "y": 54.0
+        }
+      ],
+      "role": "SIGNAL",
+      "track_count": 2,
+      "track_length_mm": 28.8,
+      "via_count": 0
+    }
+  ],
+  "tracks": [
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 7.154,
+      "net_code": 1,
+      "net_name": "+3V3",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 4.8,
+      "net_code": 2,
+      "net_name": "+3V3_MEM",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 4.8,
+      "net_code": 2,
+      "net_name": "+3V3_MEM",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 13.8,
+      "net_code": 3,
+      "net_name": "+5V",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 13.8,
+      "net_code": 3,
+      "net_name": "+5V",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 5.1,
+      "net_code": 4,
+      "net_name": "GND",
+      "width_mm": 0.5
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 6,
+      "net_name": "GPIO0",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 7,
+      "net_name": "GPIO1",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 8,
+      "net_name": "GPIO2",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 9,
+      "net_name": "GPIO3",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 10,
+      "net_name": "GPIO4",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 11,
+      "net_name": "GPIO5",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 8.4,
+      "net_code": 12,
+      "net_name": "ISO_A",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 8.4,
+      "net_code": 13,
+      "net_name": "ISO_B",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 21.6,
+      "net_code": 14,
+      "net_name": "LED_A",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 4.8,
+      "net_code": 15,
+      "net_name": "LED_K",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 8.4,
+      "net_code": 16,
+      "net_name": "OPTO_A",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 81.6,
+      "net_code": 17,
+      "net_name": "OPTO_DRV",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 42.0,
+      "net_code": 18,
+      "net_name": "OUT_ISO",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 22.286,
+      "net_code": 19,
+      "net_name": "SCL",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 22.286,
+      "net_code": 19,
+      "net_name": "SCL",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 22.286,
+      "net_code": 19,
+      "net_name": "SCL",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 22.286,
+      "net_code": 19,
+      "net_name": "SCL",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 22.286,
+      "net_code": 19,
+      "net_name": "SCL",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 22.286,
+      "net_code": 19,
+      "net_name": "SCL",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 22.286,
+      "net_code": 19,
+      "net_name": "SCL",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 20.1,
+      "net_code": 20,
+      "net_name": "SDA",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 42.0,
+      "net_code": 22,
+      "net_name": "SPI_CS",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 42.0,
+      "net_code": 24,
+      "net_name": "SPI_MOSI",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 42.0,
+      "net_code": 25,
+      "net_name": "SPI_SCK",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 72.0,
+      "net_code": 28,
+      "net_name": "UART_TX",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 29,
+      "net_name": "USB_DM",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 48.0,
+      "net_code": 30,
+      "net_name": "USB_DP",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 15.6,
+      "net_code": 31,
+      "net_name": "XTAL1",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 15.6,
+      "net_code": 31,
+      "net_name": "XTAL1",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 14.4,
+      "net_code": 32,
+      "net_name": "XTAL2",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 14.4,
+      "net_code": 32,
+      "net_name": "XTAL2",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 14.4,
+      "net_code": 33,
+      "net_name": "nRESET",
+      "width_mm": 0.25
+    },
+    {
+      "is_via": false,
+      "layer": "F.Cu",
+      "length_mm": 14.4,
+      "net_code": 33,
+      "net_name": "nRESET",
+      "width_mm": 0.25
+    }
+  ]
+}
