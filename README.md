@@ -29,7 +29,7 @@ out — plus board metrics and a topology diagram.
 ## Quick start (no KiCad needed)
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Official-HarshitAgarwal/kicad-netlist-topology-analyzer.git
 cd kicad-netlist-topology-analyzer
 
 # Analyse the bundled demo board
