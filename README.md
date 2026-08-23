@@ -38,9 +38,23 @@ python -m netlist_topology_analyzer.cli examples/demo_board.json
 # Write a self-contained HTML report
 python -m netlist_topology_analyzer.cli examples/demo_board.json --html report.html
 
-# Run the test suite (231 tests, ~0.2 s)
+# Run the test suite (288 tests, well under a second)
 python -m unittest discover -s tests -t .
 ```
+
+To try it as an actual plugin, generate a real board and open it in KiCad. Run
+this from *Tools → Scripting Console* in the PCB editor, since it needs KiCad's
+own Python:
+
+```python
+exec(open(r"examples/make_kicad_board.py").read())
+```
+
+That writes `examples/demo_board.kicad_pcb` — 38 footprints, 33 nets, one seeded
+defect per analyzer. The circuit is defined once in `examples/make_demo_board.py`
+and both emitters read it from there, so the openable board and the JSON test
+fixture are the same netlist by construction. See
+[docs/INSTALL.md](docs/INSTALL.md#regenerating-the-demo-board) for details.
 
 Requires Python 3.8+ and nothing else. No `pip install`, no third-party packages.
 
@@ -51,11 +65,16 @@ folder, then *Tools → External Plugins → Refresh Plugins*.
 
 | OS | Plugin folder |
 | --- | --- |
-| Windows | `%USERPROFILE%\Documents\KiCad\9.0\3rdparty\plugins\` |
+| Windows | `<Documents>\KiCad\9.0\3rdparty\plugins\` — see the note below |
 | Linux | `~/.local/share/kicad/9.0/3rdparty/plugins/` |
 | macOS | `~/Documents/KiCad/9.0/3rdparty/plugins/` |
 
-The exact path is shown in KiCad under *Preferences → Preferences → Paths*, or
+On Windows, `<Documents>` is `C:\Users\<you>\OneDrive\Documents` whenever
+OneDrive is backing up that folder, **not** `%USERPROFILE%\Documents`. Copying
+to the wrong one fails silently — KiCad never reads it and never says so. The
+PowerShell snippet in [`docs/INSTALL.md`](docs/INSTALL.md) resolves this for you.
+
+The exact path is also shown in KiCad under *Preferences → Preferences → Paths*, or
 run `pcbnew.PLUGIN_DIRECTORIES_SEARCH` in the scripting console. Full
 step-by-step instructions, including verification and troubleshooting, are in
 [`docs/INSTALL.md`](docs/INSTALL.md).
@@ -80,6 +99,18 @@ Two live controls, both with a **Re-run analysis** button:
 
 Export buttons write a self-contained HTML report (inline CSS and SVG, opens
 offline) or JSON.
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/p1.png" alt="Analyzer screenshot 1" width="48%">
+  <img src="screenshots/p2.png" alt="Analyzer screenshot 2" width="48%">
+  <img src="screenshots/p3.png" alt="Analyzer screenshot 3" width="48%">
+  <img src="screenshots/p4.png" alt="Analyzer screenshot 4" width="48%">
+  <img src="screenshots/p5.png" alt="Analyzer screenshot 5" width="48%">
+  <img src="screenshots/p6.png" alt="Analyzer screenshot 6" width="48%">
+  <img src="screenshots/p7.png" alt="Analyzer screenshot 7" width="48%">
+</p>
 
 ## Command line
 
@@ -129,6 +160,11 @@ open("board.json", "w").write(extract_board().to_json())
 | `spof` | NTA-150–152 | Articulation points and bridges in the signal topology |
 | `topology_metrics` | NTA-160, 161 | Betweenness centrality, diameter, hub ranking |
 
+Ahead of all of them the engine emits **NTA-001** if the board has no footprints
+and no nets at all, and skips the rest — an empty board is an absence of input,
+not a design with problems, and reporting it as the latter sends you chasing a
+configuration bug that isn't there.
+
 Every threshold and net-name pattern lives in
 `netlist_topology_analyzer/core/config.py`, including house-style rail names.
 
@@ -153,8 +189,8 @@ netlist_topology_analyzer/
 └── resources/icon.png     toolbar icon
 
 docs/    PROPOSAL.md · DESIGN.md · INSTALL.md · PRESENTATION.md
-tests/   231 unit tests, no KiCad required
-examples/ demo_board.json + generator
+tests/   288 unit tests, no KiCad required
+examples/ demo_board.json + two emitters for one circuit
 ```
 
 The organising constraint: **exactly one module imports `pcbnew`.** Everything
